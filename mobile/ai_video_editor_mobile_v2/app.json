@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "Galaxy Clips",
+    "slug": "galaxy-clips",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#070612"
+      }
+    }
+  }
+}

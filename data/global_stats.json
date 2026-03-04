@@ -1,0 +1,33 @@
+{
+  "energy_peak": {
+    "mean": 0.0,
+    "std": 1.0
+  },
+  "energy_change": {
+    "mean": 0.0,
+    "std": 1.0
+  },
+  "onset_density": {
+    "p90": 1.0
+  },
+  "motion_intensity": {
+    "mean": 0.0,
+    "std": 1.0
+  },
+  "build_up": {
+    "mean": 0.0,
+    "std": 1.0
+  },
+  "climax_strength": {
+    "mean": 0.0,
+    "std": 1.0
+  },
+  "expressive_motion": {
+    "mean": 0.0,
+    "std": 1.0
+  },
+  "temporal_contrast": {
+    "mean": 0.0,
+    "std": 1.0
+  }
+}

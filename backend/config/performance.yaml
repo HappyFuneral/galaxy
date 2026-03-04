@@ -1,0 +1,10 @@
+# Performance knobs (V1.6)
+visual_sample_fps: 0.5
+visual_max_width: 256
+audio_hop_s: 0.25
+
+# Speech pipeline:
+# - If true: only VAD-style speech_ratio (fast), no whisper transcription unless forced.
+speech_vad_only: true
+max_whisper_clips: 2
+whisper_on_selected_only: true

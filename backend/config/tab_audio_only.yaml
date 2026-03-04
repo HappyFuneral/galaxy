@@ -1,0 +1,24 @@
+# V1.8.4 – TAB generator (audio-only) v2 tuning
+tab:
+  enabled: true
+  audio_only:
+    sr: 22050
+    highpass_hz: 80
+    lowpass_hz: 1800
+    compress: true
+
+    hop_s: 0.02
+    win_s: 0.04
+    fmin: 80
+    fmax: 1400
+    hps_harmonics: 4
+
+    min_rms: 0.010
+    min_conf: 0.30
+    ema_alpha: 0.25
+
+    max_semitone_jump: 1.5
+    min_note_s: 0.06
+
+    max_fret: 24
+    prefer_high_strings: true

@@ -1,0 +1,27 @@
+
+tiktok:
+  duration_target: 45
+  hook_window_s: 3
+  weights:
+    hook: 0.35
+    silent_view: 0.25
+    loop: 0.20
+    duration_fit: 0.20
+
+shorts:
+  duration_target: 50
+  hook_window_s: 4
+  weights:
+    hook: 0.30
+    silent_view: 0.25
+    loop: 0.20
+    duration_fit: 0.25
+
+reels:
+  duration_target: 40
+  hook_window_s: 2
+  weights:
+    hook: 0.35
+    silent_view: 0.25
+    loop: 0.20
+    duration_fit: 0.20

@@ -1,0 +1,18 @@
+sliding_window:
+  window_s: 45
+  step_s: 15
+
+selection:
+  max_clips: 3
+  min_gap_s: 10
+  min_score: 0.62
+
+decision_thresholds:
+  top: 0.70
+  good: 0.66
+  borderline: 0.62
+
+decision:
+  top: 0.70
+  good: 0.66
+  borderline: 0.62

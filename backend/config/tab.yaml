@@ -1,0 +1,22 @@
+tab:
+  enabled: true
+
+  guitar_focus:
+    min_confidence: 0.65
+    min_music_activity: 0.55
+    max_speech_ratio: 1.0
+
+  generator:
+    mode: audio_only
+
+  audio_only:
+    sample_rate: 16000
+    frame_ms: 40.0
+    hop_ms: 20.0
+    fmin_hz: 70.0
+    fmax_hz: 900.0
+    min_note_s: 0.10
+    conf_gate: 0.35
+    cents_merge: 35.0
+    max_fret: 24
+    export_formats: ["txt", "json"]

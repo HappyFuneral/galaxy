@@ -1,0 +1,19 @@
+# V1.8.3 – TAB overlay (ASS)
+enabled: true
+
+step_s: 0.12
+columns: 22
+cell_w: 3
+min_conf: 0.35
+prefer_highest_midi: true
+show_sustained: true
+
+font: "Courier New"
+font_size: 26
+primary_colour: "&H00FFFFFF"
+outline_colour: "&H80000000"
+back_colour: "&H6A000000"
+outline: 2
+shadow: 0
+margin_v: 52
+margin_lr: 36

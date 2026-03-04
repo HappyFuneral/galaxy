@@ -1,0 +1,15 @@
+bgm:
+  enabled: true
+  mode: auto   # auto|always|never
+  base_gain_db: -18
+  ffmpeg_preset: veryfast
+  ffmpeg_crf: 20
+  ducking:
+    enabled: true
+    amount: 0.75
+    speech_gain_db: -22
+
+# Guitar/music gate - if music_activity is high, do NOT add bgm.
+guitar_gate:
+  enabled: true
+  threshold: 0.55

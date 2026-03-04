@@ -1,0 +1,13 @@
+# Per-platform targets used by PlatformEvaluator fallback (and can be used by your real evaluator too)
+tiktok:
+  target_seconds: 35
+  tolerance_seconds: 18
+instagram:
+  target_seconds: 40
+  tolerance_seconds: 18
+youtube_shorts:
+  target_seconds: 45
+  tolerance_seconds: 20
+youtube:
+  target_seconds: 60
+  tolerance_seconds: 30

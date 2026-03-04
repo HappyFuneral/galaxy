@@ -1,0 +1,17 @@
+
+methods:
+  energy_peak: zscore_sigmoid
+  energy_change: zscore_sigmoid
+  onset_density: log_percentile
+  harmonic_change: passthrough
+  tempo: passthrough
+
+  hands_visible_ratio: passthrough
+  face_visible_ratio: passthrough
+  motion_intensity: zscore_sigmoid
+  framing_issue_ratio: passthrough
+
+  build_up: zscore_sigmoid
+  climax_strength: zscore_sigmoid
+  expressive_motion: zscore_sigmoid
+  temporal_contrast: zscore_sigmoid

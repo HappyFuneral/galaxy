@@ -1,0 +1,15 @@
+guitar_solo_overlay:
+  enabled: true
+  text: "GUITAR SOLO"
+  min_window_s: 0.40
+  bar_height_ratio: 0.12
+  bar_color: "black@0.35"
+  font_size: 42
+  font_color: "white@0.95"
+  text_borderw: 2
+  text_bordercolor: "black@0.55"
+guitar_solo_overlay_detector:
+  bin_s: 2.0
+  min_density_notes_per_s: 0.6
+  min_coverage_ratio: 0.55
+  min_window_s: 0.40
